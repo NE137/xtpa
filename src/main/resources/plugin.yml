@@ -1,0 +1,24 @@
+name: Xtpa
+version: '${project.version}'
+main: me.n137.xtpa.Xtpa
+api-version: 1.17
+
+commands:
+  tpa:
+    description: Send a tpa request
+  tpaccept:
+    description: Accept a tpa request
+    aliases:
+      - tpyes
+      - tpy
+  tpdeny:
+    description: Deny a tpa request
+    aliases:
+      - tpno
+      - tpn
+  tpclear:
+    description: Clear pending tpa requests
+  tpview:
+    description: Check pending tpa requests
+  tptoggle:
+    description: Toggle Teleports
